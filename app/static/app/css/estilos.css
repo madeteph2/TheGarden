@@ -10,13 +10,13 @@ body {
 }
 
 h1 {
-    font-family: Arial, cursive;
+    font: Arial, cursive;
     font-size: 20px;
     text-align: center;   
 }
 
 h2 {
-    font-family: Arial, cursive;
+    font: Arial, cursive;
     font-size: 15px;
     text-align: center;
 }
@@ -24,20 +24,20 @@ h2 {
 h3 { 
     font-family: Verdana;
     text-align: center;
-    color: rgb(17, 100, 100);
-
+    color: #116464;
+    margin-top: 2%;
 }
 
 h4 { 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    color: rgb(14, 92, 75);
+    color: #116464;
     font-size: 1.0rem;
 
 }
 
 h5 {
-    font-family: Verdana, cursive;
+    font: Verdana, cursive;
     font-size: 15px;
     text-align: center;
     color: rgb(66, 158, 143);
@@ -52,7 +52,7 @@ label.error {
 header {
     width: 100%;
     height: 80px;
-    background-color: #298a7d;
+    background-color: #116464;
     /*margin-left: 30px;
     padding-left: 30px;*//*right-top-bottom*/
     display: flex;
@@ -131,7 +131,7 @@ nav a {
     width: 100%;
     height: 200px;
     object-fit: cover;
-    border-color: #123f3f;
+    border-color: #116464;
 }
 
 .producto .detalle {
@@ -149,7 +149,7 @@ nav a {
 footer {
     width: 100%;
     height: 300px;
-    background-color: #298a7d;
+    background-color: #116464;
 }
 
 footer > .marcas {
@@ -204,11 +204,13 @@ textarea {
     background-color: #278a8a;
     border: none;
     border-radius: 5px;
+    color:#116464;
 }
 
 .formulario_contacto {
     width: 500px;
     margin-top:50px;
+
 }
 
 
